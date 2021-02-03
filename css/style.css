@@ -1,0 +1,40 @@
+@font-face{
+  font-family: "MijnTitelFont";
+  src: url('../assets/fonts/myfont.woff2') format('woff2'),
+       url('../assets/fonts/myfont.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* main - algemeen */
+
+.container{
+  background-image: url("../assets/background-stipjes.png");
+}
+
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+margin-left: 100px;
+margin-bottom: 50px;
+}
+
+/* main */
+
+.main{
+
+  display: flex;
+  justify-content: center;
+}
+
+.main__stappenplan{
+
+}
+
+.main__stappenplan-img{
+  margin-top: -50px;
+}
