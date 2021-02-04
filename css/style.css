@@ -102,41 +102,47 @@ html {
 
 .content__blackout{
   display: grid;
-  grid-template-columns: 2fr 1.5fr;
+  grid-template-columns: 2fr 0.5fr 1fr;
   grid-template-rows: auto;
 }
 
 .content__blackout-box{
   background-color: #d78466;
+  grid-column:1/3;
+  grid-row:1;
 }
 
 
 .blackout__img{
-  margin: 0 auto;
+  margin: auto;
+  grid-column:2/4;
+  grid-row:1;
 }
 
 
 /* main - budafabriek*/
 .content__budafabriek-box{
   background-color: #342b64;
+  grid-column:2/4;
+  grid-row:1;
 }
 
 .content__budafabriek{
-  display: grid;
-  grid-template-columns: 1.5fr 2fr; 
+display: grid;
+  grid-template-columns: 1fr 0.2fr 2fr; 
   grid-template-rows: auto; 
 }
 
 .budafabriek__img {
-  grid-column:1/2;
+  grid-column:1/3;
   grid-row:1;
-  margin: 0 auto;
+  margin: auto;
 }
 
-.budafabriek__text{
+/*.budafabriek__text{
   grid-column:2/3;
   grid-row:1;
-}
+}*/
 
 
 /* content - makers */
