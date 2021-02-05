@@ -58,6 +58,15 @@ html {
 }
 
 
+.content__makers__text3{
+  display: none;
+}
+
+.content__makers__text4{
+  display: none;
+}
+
+
 .content__makers__text1{
 
   display: none;
@@ -661,6 +670,23 @@ body{
 }
 
 @media only screen and (max-width: 320px) {
+
+  .content__makers__text1{
+    display: none;
+  }
+
+  .content__makers__text2{
+    display: none;
+  }
+
+  .content__makers__text3{
+    display: unset;
+  }
+
+  .content__makers__text4{
+    display: unset;
+  }
+
 body{
   font-size: 14px;
 }
@@ -675,6 +701,20 @@ body{
 .stappenplan__item{
   height: 100px;
 }
+
+.content__makers__text3{
+  grid-row: 2/3;
+  grid-column: 1/3;
+
+}
+
+.content__makers__text4{
+  grid-row: 3/4;
+  grid-column: 1/2;
+  margin-right: 10px;
+
+}
+
 }
 
 
