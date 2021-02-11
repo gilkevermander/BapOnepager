@@ -447,7 +447,7 @@ display: grid;
 
 @media only screen and (max-width: 600px) {
   .main{
-    margin: unset;
+    margin: 0;
   }
  
 .header__content{
