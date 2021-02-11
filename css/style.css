@@ -122,6 +122,10 @@ html {
 
 /* main */
 
+.main{
+  margin: -20rem;
+}
+
 
 /* main - stappenplan */
 
@@ -291,6 +295,10 @@ display: grid;
     font-size: 16px;
   }
 
+  .main{
+    margin: -10rem;
+  }
+
     
   .box{
     padding: 30px;
@@ -349,6 +357,11 @@ display: grid;
 
 @media only screen and (max-width: 1024px) {
 
+
+  .main{
+    margin: -10rem;
+  }
+
   .stappenplan__button{
     width: 180px;
     padding: 3px 7px;
@@ -382,6 +395,10 @@ display: grid;
 }
 
 @media only screen and (max-width: 768px) {
+
+  .main{
+    margin: -3rem;
+  }
 
   .stappenplan__button{
     width: 160px;
@@ -429,6 +446,10 @@ display: grid;
 }
 
 @media only screen and (max-width: 600px) {
+  .main{
+    margin: unset;
+  }
+ 
 .header__content{
   display: none;
 }
