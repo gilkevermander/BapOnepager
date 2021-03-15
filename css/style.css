@@ -654,6 +654,10 @@ body{
 
 @media only screen and (max-width: 420px) {
 
+  .main{
+    margin-top: 3px;
+  }
+  
   body{
     font-size: 14px;
   }
@@ -670,8 +674,8 @@ body{
   .stappenplan__buttons-mobile{
     grid-column: 2/4;
     display: flex;
-    height: 60%;
-    width: 40%;
+    /*height: 60%;*/
+    width: 90%;
   }
 
   .mobile-button{
@@ -712,8 +716,7 @@ body{
 .stappenplan__buttons-mobile{
   grid-column: 2/4;
   display: flex;
-  height: 70%;
-  width: 46%;
+  width: 90%;
 }
 
 .stappenplan__item{
